@@ -10,6 +10,14 @@ const getPays = R.prop('children')
 
 const pays = R.flatten(continents.map(getPays))
 
+const filterAustralia = region => ({
+
+})
+
+const reduction = R.reduceBy((acc, next) => acc + (next.numberRoutes), 0, (x) => x.country == "Victoria" && "Western Australia");
+
+
+
 //console.log(pays)
 
 const filterCountries = feature => ({
@@ -21,4 +29,8 @@ const filterCountries = feature => ({
 
   const list = pays.map(filterCountries);
 
-  writeJson('climbingRoutes.json', list)
+  const australia = reduction(list);
+
+  //writeJson('climbingRoutes.json', list)
+
+  writeJson('australia.json', australia)
