@@ -10,11 +10,6 @@ const getPays = R.prop('children')
 
 const pays = R.flatten(continents.map(getPays))
 
-const filterAustralia = region => ({
-
-})
-
-const reduction = R.reduceBy((acc, next) => acc + (next.numberRoutes), 0, (x) => x.country == "Victoria" && "Western Australia");
 
 
 
@@ -22,15 +17,12 @@ const reduction = R.reduceBy((acc, next) => acc + (next.numberRoutes), 0, (x) =>
 
 const filterCountries = feature => ({
     country: R.prop(['name'], feature),
-    ascents: R.prop(['numberAscents'], feature),
     routes: R.prop(['numberRoutes'], feature),
-    gearStyles: R.prop(['gearStyles'], feature)
   })
 
   const list = pays.map(filterCountries);
 
-  const australia = reduction(list);
+  const listFinal = list.filter(countries => countries.routes !== undefined)
 
-  //writeJson('climbingRoutes.json', list)
+  writeJson('climbingRoutes2.json', listFinal)
 
-  writeJson('australia.json', australia)
