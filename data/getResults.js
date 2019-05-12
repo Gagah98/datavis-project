@@ -9,25 +9,24 @@ const data = [
 ]
 const writeJson = require('./writeJson')
 
-const getName = R.path(['cat', 'name'])
 
+//Fonctions GroupBy
+const sumBy = prop => vals => R.reduce(
+  (current, val) => R.evolve({ [prop]: R.add(val[prop]) }, current),
+  R.head(vals),
+  R.tail(vals)
+)
+const groupSumBy = R.curry((groupOn, sumOn, vals) =>
+  R.values(R.map(sumBy(sumOn))(R.groupBy(R.prop(groupOn), vals)))
+)
 
+//Fonctions filtrage points
 const getNation = R.path(['participants'])
 
-const sumBy = prop => vals => R.reduce(
-    (current, val) => R.evolve({[prop]: R.add(val[prop])}, current),
-    R.head(vals),
-    R.tail(vals)
-  )
-  const groupSumBy = R.curry((groupOn, sumOn, vals) => 
-  R.values(R.map(sumBy(sumOn))(R.groupBy(R.prop(groupOn), vals)))
-  )
-  
-
-    const filterData = feature => ({
-      country: R.prop(['nation'], feature),
-      points: R.prop(['points'], feature),
-    })
+const filterData = feature => ({
+  country: R.prop(['nation'], feature),
+  points: R.prop(['points'], feature),
+})
 
 const getResultByCountry = d => {
   const nations = getNation(d)
@@ -35,14 +34,18 @@ const getResultByCountry = d => {
   return list;
 }
 
+const getName = R.path(['cat', 'name'])
+
+
+
+
 const listFinal = data.map(getResultByCountry);
 
 
 
-const championsResults = listFinal.map(d =>((groupSumBy('country', Math.round(parseFloat(d.points)), d))));
+const championsResults = listFinal.map(d => ({ name: data.map(getName), results: (groupSumBy('country', Math.round(parseFloat(d.points)), d)) }));
 
 //writeJson('championsResults.json', championsResults)
-championsResults.sort(r => r.country)
 
 writeJson('test.json', championsResults)
 
