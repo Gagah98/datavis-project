@@ -1,0 +1,914 @@
+[{
+    "country": "United States",
+    "routes": 76631,
+    "climbingStyles": {
+      "alpine": 1884,
+      "boulder": 8757,
+      "dws": 47,
+      "ice": 1081,
+      "sport": 15369,
+      "top-rope": 1070,
+      "trad": 7600
+    }
+  },
+  {
+    "country": "Canada",
+    "routes": 16207,
+    "climbingStyles": {
+      "alpine": 140,
+      "boulder": 2438,
+      "dws": 10,
+      "ice": 274,
+      "sport": 5683,
+      "top-rope": 516,
+      "trad": 4097
+    }
+  },
+  {
+    "country": "Mexico",
+    "routes": 3769,
+    "climbingStyles": {
+      "alpine": 2,
+      "boulder": 374,
+      "dws": 1,
+      "sport": 3266,
+      "top-rope": 10,
+      "trad": 79
+    }
+  },
+  {
+    "country": "Australia",
+    "routes": 72080,
+    "climbingStyles": {
+      "alpine": 29,
+      "boulder": 21294,
+      "dws": 287,
+      "ice": 32,
+      "sport": 15406,
+      "top-rope": 1008,
+      "trad": 27152,
+      "via-ferrata": 3
+    }
+  },
+  {
+    "country": "New Zealand",
+    "routes": 12222,
+    "climbingStyles": {
+      "alpine": 40,
+      "boulder": 4004,
+      "dws": 1,
+      "ice": 71,
+      "sport": 3538,
+      "top-rope": 58,
+      "trad": 1581,
+      "via-ferrata": 1
+    }
+  },
+  {
+    "country": "Thailand",
+    "routes": 1468,
+    "climbingStyles": {
+      "boulder": 26,
+      "dws": 4,
+      "ice": -1,
+      "sport": 1176,
+      "top-rope": 9,
+      "trad": 14,
+      "via-ferrata": -1
+    }
+  },
+  {
+    "country": "Philippines",
+    "routes": 244,
+    "climbingStyles": {
+      "boulder": 1,
+      "dws": 1,
+      "sport": 209,
+      "trad": 31
+    }
+  },
+  {
+    "country": "Indonesia",
+    "routes": 198,
+    "climbingStyles": {
+      "alpine": 1,
+      "boulder": 15,
+      "dws": 4,
+      "sport": 175,
+      "top-rope": 1
+    }
+  },
+  {
+    "country": "Singapore",
+    "routes": 109,
+    "climbingStyles": {
+      "boulder": 23,
+      "sport": 53,
+      "top-rope": 3,
+      "trad": 29
+    }
+  },
+  {
+    "country": "Malaysia",
+    "routes": 612,
+    "climbingStyles": {
+      "boulder": 7,
+      "sport": 540,
+      "top-rope": 2,
+      "trad": 28
+    }
+  },
+  {
+    "country": "Myanmar",
+    "routes": 25,
+    "climbingStyles": {
+      "sport": 25
+    }
+  },
+  {
+    "country": "Laos",
+    "routes": 470,
+    "climbingStyles": {
+      "boulder": 1,
+      "sport": 469
+    }
+  },
+  {
+    "country": "Cambodia",
+    "routes": 62,
+    "climbingStyles": {
+      "boulder": 15,
+      "sport": 38,
+      "trad": 3
+    }
+  },
+  {
+    "country": "Vietnam",
+    "routes": 359,
+    "climbingStyles": {
+      "boulder": 5,
+      "dws": 40,
+      "sport": 241,
+      "top-rope": 4,
+      "trad": 2
+    }
+  },
+  {
+    "country": "Hong Kong",
+    "routes": 1405,
+    "climbingStyles": {
+      "boulder": 516,
+      "sport": 661,
+      "top-rope": 7,
+      "trad": 222
+    }
+  },
+  {
+    "country": "Japan",
+    "routes": 1824,
+    "climbingStyles": {
+      "alpine": 19,
+      "boulder": 324,
+      "ice": 16,
+      "sport": 920,
+      "top-rope": 46,
+      "trad": 306
+    }
+  },
+  {
+    "country": "South Korea",
+    "routes": 2536,
+    "climbingStyles": {
+      "boulder": 4,
+      "sport": 2443,
+      "trad": 12
+    }
+  },
+  {
+    "country": "China Mainland",
+    "routes": 4615,
+    "climbingStyles": {
+      "boulder": 167,
+      "ice": 32,
+      "sport": 4052,
+      "top-rope": 14,
+      "trad": 334
+    }
+  },
+  {
+    "country": "Taiwan",
+    "routes": 575,
+    "climbingStyles": {
+      "boulder": 50,
+      "sport": 200,
+      "top-rope": 48,
+      "trad": 275
+    }
+  },
+  {
+    "country": "Afghanistan",
+    "routes": 2,
+    "climbingStyles": {
+      "trad": 1
+    }
+  },
+  {
+    "country": "Kazakhstan",
+    "routes": 63,
+    "climbingStyles": {
+      "sport": 61,
+      "trad": 2
+    }
+  },
+  {
+    "country": "Kyrgyzstan",
+    "routes": 10
+  },
+  {
+    "country": "Tajikistan",
+    "routes": 6,
+    "climbingStyles": {
+      "sport": 5,
+      "trad": 1
+    }
+  },
+  {
+    "country": "Pakistan",
+    "routes": 41,
+    "climbingStyles": {
+      "alpine": 2,
+      "sport": 36,
+      "trad": 1
+    }
+  },
+  {
+    "country": "India",
+    "routes": 506,
+    "climbingStyles": {
+      "alpine": -1,
+      "boulder": 291,
+      "sport": 174,
+      "top-rope": 13,
+      "trad": 22
+    }
+  },
+  {
+    "country": "Nepal",
+    "routes": 6,
+    "climbingStyles": {
+      "alpine": 6
+    }
+  },
+  {
+    "country": "Bhutan",
+    "routes": 15,
+    "climbingStyles": {
+      "sport": 13
+    }
+  },
+  {
+    "country": "Sri Lanka",
+    "routes": 16,
+    "climbingStyles": {
+      "boulder": 4,
+      "sport": 12
+    }
+  },
+  {
+    "country": "Germany",
+    "routes": 70698,
+    "climbingStyles": {
+      "alpine": 56,
+      "boulder": 4316,
+      "dws": 18,
+      "ice": 5,
+      "sport": 37147,
+      "top-rope": 224,
+      "trad": 24957,
+      "via-ferrata": 22
+    }
+  },
+  {
+    "country": "France",
+    "routes": 58207,
+    "climbingStyles": {
+      "alpine": 79,
+      "boulder": 28226,
+      "dws": 55,
+      "ice": 3,
+      "sport": 26771,
+      "top-rope": 159,
+      "trad": 487,
+      "via-ferrata": 1
+    }
+  },
+  {
+    "country": "United Kingdom",
+    "routes": 27777,
+    "climbingStyles": {
+      "alpine": 76,
+      "boulder": 1371,
+      "dws": 67,
+      "ice": 2,
+      "sport": 2121,
+      "top-rope": 503,
+      "trad": 7073
+    }
+  },
+  {
+    "country": "Switzerland",
+    "routes": 23500,
+    "climbingStyles": {
+      "alpine": -269,
+      "boulder": 3665,
+      "dws": 1,
+      "ice": 11,
+      "sport": 18709,
+      "top-rope": 97,
+      "trad": 758,
+      "via-ferrata": 2
+    }
+  },
+  {
+    "country": "Austria",
+    "routes": 15734,
+    "climbingStyles": {
+      "alpine": 208,
+      "boulder": 705,
+      "ice": 175,
+      "sport": 13626,
+      "top-rope": 133,
+      "trad": 658,
+      "via-ferrata": 92
+    }
+  },
+  {
+    "country": "Netherlands",
+    "routes": 59,
+    "climbingStyles": {
+      "boulder": 6,
+      "sport": 25,
+      "top-rope": 29
+    }
+  },
+  {
+    "country": "Luxembourg",
+    "routes": 158,
+    "climbingStyles": {
+      "sport": 157,
+      "top-rope": 1
+    }
+  },
+  {
+    "country": "Belgium",
+    "routes": 4496,
+    "climbingStyles": {
+      "alpine": 3,
+      "boulder": 334,
+      "sport": 4108,
+      "top-rope": 5,
+      "trad": 4
+    }
+  },
+  {
+    "country": "Ireland",
+    "routes": 910,
+    "climbingStyles": {
+      "boulder": 9,
+      "trad": 556
+    }
+  },
+  {
+    "country": "Liechtenstein",
+    "routes": 10,
+    "climbingStyles": {
+      "boulder": 9,
+      "trad": 1
+    }
+  },
+  {
+    "country": "Italy",
+    "routes": 32412,
+    "climbingStyles": {
+      "alpine": 52,
+      "boulder": 480,
+      "dws": 9,
+      "ice": 47,
+      "sport": 25171,
+      "top-rope": 7,
+      "trad": 932,
+      "via-ferrata": 136
+    }
+  },
+  {
+    "country": "Spain",
+    "routes": 33463,
+    "climbingStyles": {
+      "alpine": 6,
+      "boulder": 822,
+      "dws": 413,
+      "ice": 15,
+      "sport": 29402,
+      "top-rope": 13,
+      "trad": 1846,
+      "via-ferrata": 4
+    }
+  },
+  {
+    "country": "Greece",
+    "routes": 8018,
+    "climbingStyles": {
+      "alpine": -5,
+      "boulder": 110,
+      "dws": 8,
+      "sport": 7486,
+      "top-rope": 24,
+      "trad": 237,
+      "via-ferrata": 1
+    }
+  },
+  {
+    "country": "Portugal",
+    "routes": 591,
+    "climbingStyles": {
+      "boulder": 57,
+      "dws": 5,
+      "sport": 488,
+      "top-rope": 1,
+      "trad": 7
+    }
+  },
+  {
+    "country": "Malta",
+    "routes": 595,
+    "climbingStyles": {
+      "boulder": 9,
+      "sport": 468,
+      "trad": 121
+    }
+  },
+  {
+    "country": "Sweden",
+    "routes": 8340,
+    "climbingStyles": {
+      "alpine": 1,
+      "boulder": 4989,
+      "dws": 17,
+      "sport": 986,
+      "top-rope": 5,
+      "trad": 1775
+    }
+  },
+  {
+    "country": "Norway",
+    "routes": 12568,
+    "climbingStyles": {
+      "alpine": 9,
+      "boulder": 4621,
+      "dws": 10,
+      "ice": 177,
+      "sport": 4789,
+      "top-rope": 36,
+      "trad": 2926
+    }
+  },
+  {
+    "country": "Finland",
+    "routes": 546,
+    "climbingStyles": {
+      "boulder": 461,
+      "sport": 19,
+      "trad": 16
+    }
+  },
+  {
+    "country": "Denmark",
+    "routes": 253,
+    "climbingStyles": {
+      "alpine": 4,
+      "ice": 2,
+      "sport": 163,
+      "top-rope": 1,
+      "trad": 85
+    }
+  },
+  {
+    "country": "Iceland",
+    "routes": 148,
+    "climbingStyles": {
+      "boulder": 26,
+      "ice": 13,
+      "sport": 69,
+      "top-rope": 1,
+      "trad": 36
+    }
+  },
+  {
+    "country": "Slovenia",
+    "routes": 2856,
+    "climbingStyles": {
+      "boulder": 84,
+      "sport": 2758
+    }
+  },
+  {
+    "country": "Hungary",
+    "routes": 756,
+    "climbingStyles": {
+      "boulder": 18,
+      "sport": 481,
+      "top-rope": 2,
+      "trad": 124,
+      "via-ferrata": 7
+    }
+  },
+  {
+    "country": "Poland",
+    "routes": 1328,
+    "climbingStyles": {
+      "boulder": 19,
+      "sport": 754,
+      "top-rope": 1,
+      "trad": 551,
+      "via-ferrata": 1
+    }
+  },
+  {
+    "country": "Czech Republic",
+    "routes": 58641,
+    "climbingStyles": {
+      "alpine": -2,
+      "boulder": 1400,
+      "ice": 3,
+      "sport": 4187,
+      "top-rope": 2,
+      "trad": 52420,
+      "via-ferrata": 1
+    }
+  },
+  {
+    "country": "Croatia",
+    "routes": 2118,
+    "climbingStyles": {
+      "dws": 110,
+      "sport": 1975,
+      "trad": 16
+    }
+  },
+  {
+    "country": "Romania",
+    "routes": 720,
+    "climbingStyles": {
+      "alpine": 1,
+      "sport": 690,
+      "trad": 26
+    }
+  },
+  {
+    "country": "Bosnia Herzegovina",
+    "routes": 155,
+    "climbingStyles": {
+      "boulder": 39,
+      "sport": 116
+    }
+  },
+  {
+    "country": "Serbia",
+    "routes": 662,
+    "climbingStyles": {
+      "sport": 662
+    }
+  },
+  {
+    "country": "Bulgaria",
+    "routes": 1385,
+    "climbingStyles": {
+      "sport": 260,
+      "trad": 1119
+    }
+  },
+  {
+    "country": "Macedonia",
+    "routes": 217,
+    "climbingStyles": {
+      "boulder": 8,
+      "sport": 178,
+      "trad": 30
+    }
+  },
+  {
+    "country": "Albania",
+    "routes": 64,
+    "climbingStyles": {
+      "sport": 62,
+      "trad": 2
+    }
+  },
+  {
+    "country": "Russia",
+    "routes": 1784,
+    "climbingStyles": {
+      "boulder": 85,
+      "sport": 1641,
+      "top-rope": 22,
+      "trad": 33
+    }
+  },
+  {
+    "country": "Ukraine",
+    "routes": 3504,
+    "climbingStyles": {
+      "boulder": 1331,
+      "sport": 2111,
+      "top-rope": 38,
+      "trad": 5
+    }
+  },
+  {
+    "country": "Moldova",
+    "routes": 1,
+    "climbingStyles": {
+      "top-rope": 1
+    }
+  },
+  {
+    "country": "Montenegro",
+    "routes": 313,
+    "climbingStyles": {
+      "alpine": 1,
+      "boulder": 7,
+      "sport": 201,
+      "trad": 102
+    }
+  },
+  {
+    "country": "Slovakia",
+    "routes": 2231,
+    "climbingStyles": {
+      "alpine": 42,
+      "boulder": 109,
+      "sport": 1972,
+      "trad": 35,
+      "via-ferrata": 1
+    }
+  },
+  {
+    "country": "Andorra",
+    "routes": 2,
+    "climbingStyles": {
+      "sport": 2
+    }
+  },
+  {
+    "country": "Bolivia",
+    "routes": 127,
+    "climbingStyles": {
+      "alpine": 43,
+      "sport": 72,
+      "trad": 4
+    }
+  },
+  {
+    "country": "Brazil",
+    "routes": 3236,
+    "climbingStyles": {
+      "alpine": 5,
+      "boulder": 842,
+      "sport": 1935,
+      "top-rope": 34,
+      "trad": 340,
+      "via-ferrata": 1
+    }
+  },
+  {
+    "country": "Argentina",
+    "routes": 1722,
+    "climbingStyles": {
+      "alpine": 45,
+      "boulder": 5,
+      "sport": 1389,
+      "top-rope": 3,
+      "trad": 252
+    }
+  },
+  {
+    "country": "Ecuador",
+    "routes": 1,
+    "climbingStyles": {
+      "boulder": 1
+    }
+  },
+  {
+    "country": "Colombia",
+    "routes": 633,
+    "climbingStyles": {
+      "boulder": 5,
+      "sport": 312,
+      "trad": 227
+    }
+  },
+  {
+    "country": "Venezuela",
+    "routes": 74,
+    "climbingStyles": {
+      "sport": 8,
+      "trad": 22
+    }
+  },
+  {
+    "country": "Peru",
+    "routes": 611,
+    "climbingStyles": {
+      "alpine": 66,
+      "boulder": 16,
+      "sport": 396,
+      "top-rope": 1,
+      "trad": 38
+    }
+  },
+  {
+    "country": "Chile",
+    "routes": 1363,
+    "climbingStyles": {
+      "alpine": 11,
+      "boulder": -1,
+      "sport": 1179,
+      "top-rope": 2,
+      "trad": 143,
+      "via-ferrata": 1
+    }
+  },
+  {
+    "country": "South Africa",
+    "routes": 7456,
+    "climbingStyles": {
+      "boulder": 1629,
+      "ice": 20,
+      "sport": 2433,
+      "top-rope": 6,
+      "trad": 2178
+    }
+  },
+  {
+    "country": "Botswana",
+    "routes": 6
+  },
+  {
+    "country": "Lesotho",
+    "routes": 36,
+    "climbingStyles": {
+      "ice": 1
+    }
+  },
+  {
+    "country": "Namibia",
+    "routes": 164,
+    "climbingStyles": {
+      "sport": 127,
+      "trad": 29
+    }
+  },
+  {
+    "country": "Morocco",
+    "routes": 462,
+    "climbingStyles": {
+      "boulder": 5,
+      "sport": 138,
+      "trad": 177
+    }
+  },
+  {
+    "country": "Algeria",
+    "routes": 2,
+    "climbingStyles": {
+      "trad": 2
+    }
+  },
+  {
+    "country": "Tunisia",
+    "routes": 38,
+    "climbingStyles": {
+      "sport": 32,
+      "top-rope": 3,
+      "trad": 3
+    }
+  },
+  {
+    "country": "Egypt",
+    "routes": 26,
+    "climbingStyles": {
+      "sport": 23
+    }
+  },
+  {
+    "country": "Kenya",
+    "routes": 932,
+    "climbingStyles": {
+      "alpine": 1,
+      "boulder": 9,
+      "ice": 2,
+      "sport": 26,
+      "top-rope": 1,
+      "trad": 820
+    }
+  },
+  {
+    "country": "Uganda",
+    "routes": 147,
+    "climbingStyles": {
+      "boulder": 11,
+      "sport": 82,
+      "top-rope": 35,
+      "trad": 19
+    }
+  },
+  {
+    "country": "Tanzania",
+    "routes": 2,
+    "climbingStyles": {
+      "trad": 2
+    }
+  },
+  {
+    "country": "Madagascar",
+    "routes": 159,
+    "climbingStyles": {
+      "sport": 154
+    }
+  },
+  {
+    "country": "Rwanda",
+    "routes": 22,
+    "climbingStyles": {
+      "sport": 1
+    }
+  },
+  {
+    "country": "Mali",
+    "routes": 2,
+    "climbingStyles": {
+      "trad": 2
+    }
+  },
+  {
+    "country": "Ghana",
+    "routes": 33,
+    "climbingStyles": {
+      "alpine": 2,
+      "sport": 24,
+      "top-rope": 1,
+      "trad": 6
+    }
+  },
+  {
+    "country": "La Réunion",
+    "routes": 148,
+    "climbingStyles": {
+      "boulder": 16,
+      "sport": 129,
+      "trad": 2
+    }
+  },
+  {
+    "country": "Melanesia",
+    "routes": 114,
+    "climbingStyles": {
+      "dws": 2,
+      "sport": 111,
+      "trad": 1
+    }
+  },
+  {
+    "country": "Micronesia",
+    "routes": 1,
+    "climbingStyles": {
+      "sport": 1
+    }
+  },
+  {
+    "country": "Polynesia",
+    "routes": 59,
+    "climbingStyles": {
+      "boulder": 3,
+      "sport": 54,
+      "top-rope": 1,
+      "trad": 1
+    }
+  },
+  {
+    "country": "North Pole",
+    "routes": 1,
+    "climbingStyles": {
+      "alpine": 1
+    }
+  },
+  {
+    "country": "Greenland",
+    "routes": 29,
+    "climbingStyles": {
+      "alpine": 16,
+      "ice": 2,
+      "trad": 11
+    }
+  }
+]

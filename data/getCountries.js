@@ -18,6 +18,7 @@ const pays = R.flatten(continents.map(getPays))
 const filterCountries = feature => ({
     country: R.prop(['name'], feature),
     routes: R.prop(['numberRoutes'], feature),
+    climbingStyles: R.prop(['gearStyles'], feature),
   })
 
   const list = pays.map(filterCountries);

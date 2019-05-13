@@ -45,9 +45,8 @@ const listFinal = data.map(getResultByCountry);
 
 const championsResults = listFinal.map(d => ({ name: data.map(getName), results: (groupSumBy('country', Math.round(parseFloat(d.points)), d)) }));
 
-//writeJson('championsResults.json', championsResults)
+writeJson('championsResults.json', championsResults)
 
-writeJson('test.json', championsResults)
 
 
 

@@ -1,6 +1,5 @@
 const climbingRoutes = require('../data/climbingRoutes.json')
 
-console.log(climbingRoutes)
 
 
 climbingRoutes.sort((c1, c2) => c1.routes > c2.routes ? -1 : 1)
@@ -8,9 +7,6 @@ climbingRoutes.sort((c1, c2) => c1.routes > c2.routes ? -1 : 1)
 const bestRoutes = climbingRoutes.filter(c => c.routes > 1000)
 
 bb.generate({
-  title: {
-    text: "Climbing Routes by country"
-  },
   data: {
     json: {
       

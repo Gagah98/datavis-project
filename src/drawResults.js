@@ -1,28 +1,57 @@
-const climbingResults = require('../data/championsResults.json')
+const R = require('ramda')
+const DATA = require('../data/championsResults.json')
 
-function compareNombres(a, b) {
-  return a.country - b.country;
+
+
+
+const sumBy = prop => vals => R.reduce(
+  (current, val) => R.evolve({ [prop]: R.add(val[prop]) }, current),
+  R.head(vals),
+  R.tail(vals)
+)
+const groupSumBy = R.curry((groupOn, sumOn, vals) =>
+  R.values(R.map(sumBy(sumOn))(R.groupBy(R.prop(groupOn), vals))))
+
+  const compareNumbers = (a,b) => {
+    return b.points - a.points
+  }
+
+const totalByCountry =  groupSumBy('country', 'points', R.flatten(DATA)).sort(compareNumbers).filter(c => c.points >= 200)
+
+
+console.log(totalByCountry)
+
+
+
+countries = totalByCountry.map(R.prop('country'))
+
+
+
+categories =       [
+  "leadWomen",
+  "leadMen",
+  "boulderingWomen",
+  "boulderingMen",
+  "speedWomen",
+  "speedMen",
+]
+
+
+getPoints = (categoryIndex, country) => {
+  const categoryData = R.path([categoryIndex], DATA)
+  return Number(R.propOr(0, 'points', categoryData.find(R.propEq('country', country))))
 }
 
+DATA_FIXED = categories
+  .reduce((result, category, categoryIndex) => ({
+    ...result,
+    [category]: countries.map(country => getPoints(categoryIndex, country)),
+  }), {})
 
-const leadWomen = climbingResults[0];
-const leadMen = climbingResults[1];
-const boulderingWomen = climbingResults[2];
-const boulderingMen = climbingResults[3];
-const speedWomen = climbingResults[4];
-const speedMen = climbingResults[5];
-console.log(leadWomen)
 
-var chart = bb.generate({
-  data: {
-    json: {
-      "leadWomen": leadWomen.map(r => r.points),
-      "leadMen": leadMen.map(r => r.points),
-      "boulderingWomen": boulderingWomen.map(r => r.points),
-      "boulderingMen": boulderingMen.map(r => r.points),
-      "speedWomen": speedWomen.map(r => r.points),
-      "speedMen": speedMen.map(r => r.points),
-    },
+  var chart = bb.generate({
+    data: {
+    json: DATA_FIXED,
     type: "bar",
     groups: [
       [
@@ -32,14 +61,20 @@ var chart = bb.generate({
         "boulderingMen",
         "speedWomen",
         "speedMen",
-       
       ]
-    ]
+    ],
+      
   },
   axis: {
     x: {
       type: "category",
-      categories: leadWomen.map(r => r.country),
+      categories: countries,
+      tick: {
+        rotate: 75,
+        multiline: false,
+        tooltip: true
+      },
+      height: 130
     },
     y: {
       label: {
@@ -48,5 +83,13 @@ var chart = bb.generate({
       },
     },
   },
-    bindto: "#resultsChart"
-  });
+bindto: resultsChart
+})
+
+getDataByCountry = country => categories.map((category, i) => ({
+  category,
+  points: Number(R.propOr(0, 'points', DATA[i].find(R.propEq('country', country)))) ,
+}))
+
+
+
