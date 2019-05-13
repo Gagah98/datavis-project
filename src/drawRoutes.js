@@ -16,6 +16,9 @@ bb.generate({
     type: 'bar', 
     
   },
+  size: {
+    height:600
+  },
 
   axis: {
     x: {
@@ -34,6 +37,7 @@ bb.generate({
       position: "outer-center"
       },
     },
+    rotated:true,
   },
  
   

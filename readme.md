@@ -18,7 +18,7 @@ Je suis passionné par la grimpe et cela m'intéressait de voir différents aspe
 J'ai utilisé billboard, je ne sais pas si c'était la meilleure solution car j'avais l'impression que la librairie était assez limitée. Je ne sais pas si en utilisant uniquement D3, cela m'aurait facilité l'utilisation de mes données, mais en tout cas billboard m'a facilité l'étape création de graphique.
 
 ## Une explication sur le choix du type de représentation
-J'ai utilisé les charts en grimpe car c'est le type de représentation qui me paraissait le plus adéquat. On voit directement les différences entre chaque pays. J'aurais pu faire un graphique où je représente directement les deux en même temps, mais il était trop compliqué pour moi de regrouper les bases de données ensemble.
+J'ai utilisé les charts en bar car c'est le type de représentation qui me paraissait le plus adéquat. On voit directement les différences entre chaque pays. Par contre, comme dans le premier graphe j'ai plus de données, il était plus visuel de mettre les bars dans le sens de la longueur. J'aurais pu faire un graphique où je représente directement les deux graphiques en même temps, mais il était trop compliqué pour moi de regrouper les bases de données ensemble.
 
 ## Ce que vous souhaitez démontrer
 Dans le premier graphique, je voulais montrer le nombre de routes d'escalade par pays afin de voir où se trouve les pays les plus intéressant pour grimper. Dans le 2e graphique, je voulais montrer dans quelles nations les grimpeurs sont les plus forts asini que de voir s'il y a une tendance selon le sexe et/ou le type d'escalade. En mettant ces deux graphiques côte à côte ,je voulais voir si plus un pays a de routes d'escalade, plus il y a de champions d'escalade dans ce pays.
